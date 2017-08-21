@@ -12,8 +12,8 @@ humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g.,
 startdate: 2017-09-12      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2017-09-13        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Mark Laufersweiler"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: ["rclemens@iastate.edu, laufers@ou.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+helper: ["TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: ["rclemens@iastate.edu, colletti@iastate.edu,  laufers@ou.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -297,7 +297,7 @@ and our administrator may contact you if we need any extra information.</h4>
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
-<div id="shell"> <!-- Start of 'shell' section. -->
+<!-- <div id="shell"> <!-- Start of 'shell' section. ->
   <h3>The Bash Shell</h3>
 
   <p>
@@ -313,12 +313,12 @@ and our administrator may contact you if we need any extra information.</h4>
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
         <li>Run the installer and follow the steps bellow:
           <ol>
-            <!-- Git 2.8.2 Setup -->
-            <!-- Information -->
+            <!- Git 2.8.2 Setup ->
+            <!- Information ->
             <li>Click on "Next".</li>
-            <!-- Select Components -->
+            <!- Select Components ->
             <li>Click on "Next".</li>
-            <!-- Adjusting your PATH environment -->
+            <!- Adjusting your PATH environment ->
             <li>
               <strong>
                 Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
@@ -326,24 +326,24 @@ and our administrator may contact you if we need any extra information.</h4>
                 If you forgot to do this programs that you need for the workshop will not work properly.
                 If this happens rerun the installer and select the appropriate option.
             </li>
-            <!-- Choosing the SSH executable -->
+            <!- Choosing the SSH executable ->
             <li>Click on "Next".</li>
-            <!-- Configuring the line ending conversions -->
+            <!-- Configuring the line ending conversions ->
             <li>
               <strong>
                 Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
               </strong>
             </li>
-            <!-- Configuring the terminal emulator to use with Git Bash -->
+            <!-- Configuring the terminal emulator to use with Git Bash ->
             <li>
               <strong>
                 Keep "Use Windows' default console window" selected and click on "Next".
               </strong>
             </li>
-            <!-- Configuring experimental performance tweaks -->
+            <!-- Configuring experimental performance tweaks ->
             <li>Click on "Install".</li>
             <!-- Installing -->
-            <!-- Completing the Git Setup Wizard -->
+            <!-- Completing the Git Setup Wizard ->
             <li>Click on "Finish".</li>
           </ol>
         </li>
@@ -385,10 +385,11 @@ and our administrator may contact you if we need any extra information.</h4>
       </p>
     </div>
   </div>
-</div> <!-- End of 'shell' section. -->
-
+</div> <!-- End of 'shell' section. ->
+-->
+<!--
 <div id="git"> <!-- Start of 'Git' section. GitHub browser compatability
-           is given at https://help.github.com/articles/supported-browsers/-->
+           is given at https://help.github.com/articles/supported-browsers/->
   <h3>Git</h3>
   <p>
     Git is a version control system that lets you track who made changes
@@ -441,7 +442,8 @@ and our administrator may contact you if we need any extra information.</h4>
       </p>
     </div>
   </div>
-</div> <!-- End of 'Git' section. -->
+</div> <!-- End of 'Git' section. ->
+-->
 
 <div id="editor"> <!-- Start of 'editor' section. -->
   <h3>Text Editor</h3>
@@ -514,11 +516,11 @@ and our administrator may contact you if we need any extra information.</h4>
     </div>
   </div>
 </div> <!-- End of 'editor' section. -->
-
+<!--
 <div id="python"> <!-- Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the IPython notebook.
-           Details at http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility -->
+           Details at http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility ->
   <h3>Python</h3>
 
   <p>
@@ -597,7 +599,7 @@ and our administrator may contact you if we need any extra information.</h4>
           Close the terminal window.
       </ol>
     </div>
-  </div>
+  </div> -->
 <!--
   <p>
   Once you are done installing the software listed above,
